@@ -65,9 +65,9 @@ public class PhaseTrack : MonoBehaviour
             P1Cam.active = false;
             if (TimeChecker == true)
             {
-                //OriginCat.active = false;
                 P2Cam1.active = false;
                 P2Cam2.active = true;
+                OriginCat.active = false;
             }
             else if (TimeChecker == false)
             {
